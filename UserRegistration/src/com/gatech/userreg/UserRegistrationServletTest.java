@@ -52,7 +52,6 @@ public class UserRegistrationServletTest {
 		for( int i = 0; i < 6; i++ ) 
 	  		sb.append( AB.charAt( rnd.nextInt(AB.length()) ) );
 		randomEmail = sb.toString() + "@gmail.com";
-}
 	}
 	
 	@Test
